@@ -1,0 +1,14 @@
+path: ./datasets/steel_defect
+
+train: train
+val: valid
+
+# 如果你这个 NEU-DET 的 YOLO 转换脚本已经把 6 类映射为 0~5，则这里写 6
+nc: 6
+names:
+  - crazing
+  - inclusion
+  - patches
+  - pitted_surface
+  - rolled_in_scale
+  - scratches
