@@ -1,0 +1,10 @@
+path: ../datasets/severstal-steel-defect-detection # dataset root dir
+train: images/train # train images (relative to 'path') 4 images
+val: images/val # val images (relative to 'path') 4 images
+test: images/test # test images (optional)
+
+names:
+  0: class-1
+  1: class-2
+  2: class-3
+  3: class-4
